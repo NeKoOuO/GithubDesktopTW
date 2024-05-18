@@ -4,7 +4,7 @@
 GitHubDesktop官網：https://desktop.github.com
 
 ---
-## 版本 3.3.18
+## 目前最新版本 3.3.18
 
 ---
 ### Windows漢化
