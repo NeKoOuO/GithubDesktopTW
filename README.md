@@ -1,12 +1,10 @@
 # GithubDesktopTW
 
+### 目前最新版本 3.3.18
+
 此工具為 GitHubDesktop 的正體中文化。
 
 GitHubDesktop官網：https://desktop.github.com
-
----
-
-### 目前最新版本 3.3.18
 
 ---
 
