@@ -1,5 +1,5 @@
 # GithubDesktopTW
-此工具為 GitHubDesktop 正體中文化。
+此工具為 GitHubDesktop 的正體中文化。
 
 GitHubDesktop官網：https://desktop.github.com
 
