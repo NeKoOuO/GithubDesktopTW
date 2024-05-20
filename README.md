@@ -11,6 +11,7 @@ GitHubDesktop官網：https://desktop.github.com
 ### Windows
 
 開啟 `GithubDesktopZhTool.exe`，點選即可。
+>翻譯有關問題、錯字，可以開 Issue 反饋
 
 ---
 
