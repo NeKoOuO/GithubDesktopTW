@@ -1,6 +1,6 @@
 # GithubDesktopTW
 
-### 目前最新版本 3.3.18
+### 目前最新版本 3.4.18
 
 此工具為 GitHubDesktop 的正體中文化。
 
@@ -11,7 +11,7 @@ GitHubDesktop官網：https://desktop.github.com
 ### Windows
 
 開啟 `GithubDesktopZhTool.exe`，點選即可。
->翻譯有關問題、錯字，可以開 Issue 反饋
+>翻譯有關問題、錯字，可以開 Issue 回饋
 
 ---
 

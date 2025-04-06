@@ -1,840 +1,100 @@
-&File>*.*<檔案>*.*<選單-檔案>*.*<main.js
-New &repository…>*.*<新建儲存庫>*.*<選單-檔案>*.*<main.js
-Add &local repository…>*.*<新增儲存庫>*.*<選單-檔案>*.*<main.js
-Clo&ne repository…>*.*<克隆儲存庫>*.*<選單-檔案>*.*<main.js
-&Options…>*.*<選項>*.*<選單-檔案>*.*<main.js
-E&xit>*.*<退出>*.*<選單-檔案>*.*<main.js
-&Edit>*.*<編輯>*.*<選單-編輯>*.*<main.js
-&Undo>*.*<撤消>*.*<選單-編輯>*.*<main.js
-&Redo>*.*<恢復>*.*<選單-編輯>*.*<main.js
-Cu&t>*.*<剪下>*.*<選單-編輯>*.*<main.js
-&Copy>*.*<複製>*.*<選單-編輯>*.*<main.js
-&Paste>*.*<貼上>*.*<選單-編輯>*.*<main.js
-Select &all>*.*<全選>*.*<選單-編輯>*.*<main.js
-&Find>*.*<查詢>*.*<選單-編輯>*.*<main.js
-&View">*.*<檢視>*.*<選單-檢視>*.*<main.js
-&Changes>*.*<更改>*.*<選單-檢視>*.*<main.js
-&History>*.*<歷史>*.*<選單-檢視>*.*<main.js
-Repository &list>*.*<儲存庫列表>*.*<選單-檢視>*.*<main.js
-&Branches list>*.*<分支列表>*.*<選單-檢視>*.*<main.js
-Go to &Summary>*.*<填寫摘要>*.*<選單-檢視>*.*<main.js
-H&ide stashed changes>*.*<隱藏暫存更改>*.*<選單-檢視>*.*<main.js
-Sho&w stashed changes>*.*<顯示暫存更改>*.*<選單-檢視>*.*<main.js
-Toggle &full screen>*.*<全屏>*.*<選單-檢視>*.*<main.js
-Reset zoom>*.*<重置縮放>*.*<選單-檢視>*.*<main.js
-Zoom in>*.*<放大>*.*<選單-檢視>*.*<main.js
-Zoom out>*.*<縮小>*.*<選單-檢視>*.*<main.js
-&Reload>*.*<重新載入>*.*<選單-檢視>*.*<main.js
-&Toggle developer tools>*.*<開發者工具>*.*<選單-檢視>*.*<main.js
-&Repository>*.*<儲存庫>*.*<選單-倉庫>*.*<main.js
-Force P&ush…>*.*<強制推送…>*.*<選單-倉庫>*.*<main.js
-Force P&ush>*.*<強制推送>*.*<選單-倉庫>*.*<main.js
-P&ush>*.*<推送>*.*<選單-倉庫>*.*<main.js
-Pu&ll>*.*<拉取>*.*<選單-倉庫>*.*<main.js
-&Remove…>*.*<刪除>*.*<選單-倉庫>*.*<main.js
-&View on GitHub>*.*<在GitHub上檢視>*.*<選單-倉庫>*.*<main.js
-Command Prompt>*.*<}中開啟>*.*<選單-倉庫>*.*<main.js
-Show in E&xplorer>*.*<在資源管理器中顯示>*.*<選單-倉庫>*.*<main.js
-external editor>*.*<}中開啟>*.*<選單-倉庫>*.*<main.js
-Create &issue on GitHub>*.*<在GitHub上建立問題(issue)>*.*<選單-倉庫>*.*<main.js
-Repository &settings…>*.*<儲存庫設定>*.*<選單-倉庫>*.*<main.js
-&Branch>*.*<分支>*.*<選單-分支>*.*<main.js
-New &branch…>*.*<新建>*.*<選單-分支>*.*<main.js
-&Rename…>*.*<重新命名>*.*<選單-分支>*.*<main.js
-&Delete…>*.*<刪除>*.*<選單-分支>*.*<main.js
-Discard all changes…>*.*<放棄所有更改>*.*<選單-分支>*.*<main.js
-&Stash all changes…>*.*<暫存所有更改(stash)>*.*<選單-分支>*.*<main.js
-&Stash all changes>*.*<暫存所有更改(stash)>*.*<選單-分支>*.*<main.js
-&Update from ${a}>*.*<從${a}更新>*.*<選單-分支>*.*<main.js
-&Compare to branch>*.*<與其他分支比較>*.*<選單-分支>*.*<main.js
-&Merge into current branch…>*.*<合併到當前分支>*.*<選單-分支>*.*<main.js
-Squas&h and merge into current branch…>*.*<壓縮合併到當前分支>*.*<選單-分支>*.*<main.js
-R&ebase current branch…>*.*<變基當前分支(Rebase)>*.*<選單-分支>*.*<main.js
-Compare on &GitHub>*.*<在GitHub上比較>*.*<選單-分支>*.*<main.js
-View branch on GitHub>*.*<在GitHub上檢視>*.*<選單-分支>*.*<main.js
-View &pull request on GitHub>*.*<在 GitHub 上檢視Pull(拉取)請求>*.*<選單-分支>*.*<main.js
-Create &pull request>*.*<建立拉取(Pull)請求>*.*<選單-分支>*.*<main.js
-&Help>*.*<幫助>*.*<選單-幫助>*.*<main.js
-Report issue…>*.*<問題反饋>*.*<選單-幫助>*.*<main.js
-&Contact GitHub support…>*.*<聯絡GitHub支援>*.*<選單-幫助>*.*<main.js
-Show User Guides>*.*<使用者指南>*.*<選單-幫助>*.*<main.js
-Show keyboard shortcuts>*.*<鍵盤快捷鍵>*.*<選單-幫助>*.*<main.js
-S&how logs in Explorer>*.*<日誌>*.*<選單-幫助>*.*<main.js
-Failed opening logs directory>*.*<無法開啟日誌目錄>*.*<選單-幫助>*.*<main.js
-&About GitHub Desktop>*.*<關於>*.*<選單-幫助>*.*<main.js
-&Fetch>*.*<同步>*.*<選單-倉庫>*.*<main.js
-Let's get started!>*.*<讓我們一起搖擺！🥳🥳🥳>*.*<開始頁>*.*<renderer.js
-Add a repository to GitHub Desktop to start collaborating>*.*<用GitHub Desktop協作開發>*.*<開始頁>*.*<renderer.js
-Clone a repository from the Internet…>*.*<克隆儲存庫...>*.*<開始頁>*.*<renderer.js
-Create a New Repository on your hard drive…>*.*<建立儲存庫...>*.*<開始頁>*.*<renderer.js
-Add an Existing Repository from your hard drive…>*.*<開啟儲存庫...>*.*<開始頁>*.*<renderer.js
-ProTip!">*.*<提示：>*.*<開始頁>*.*<renderer.js
- You can drag & drop an existing repository folder here to add it to Desktop>*.*<您可以將本地的儲存庫資料夾拖放到此處進行新增>*.*<開始頁>*.*<renderer.js
-Clone a repository>*.*<克隆倉庫>*.*<待分組>*.*<renderer.js
-"Sign in";>*.*<登入>*.*<待分組>*.*<renderer.js
-Sign in to your GitHub.com account to access your repositories.>*.*<登入您的GitHub.com帳戶訪問您的儲存庫。>*.*<待分組>*.*<renderer.js
-Your new branch will be based on the commit '>*.*<您的新分支將基於提交 '>*.*<待分組>*.*<renderer.js
-from your repository.>*.*<從您的儲存庫。>*.*<待分組>*.*<renderer.js
-You do not currently have any branch checked out (your HEAD reference is detached). As such your new branch will be based on your currently checked out commit>*.*<您當前沒有簽出任何分支（您的頭引用已分離). 因此，您的新分支將基於您當前簽出的提交>*.*<待分組>*.*<renderer.js
-Your current branch is unborn (does not contain any commits). Creating a new branch will rename the current branch.>*.*<當前分支未繫結（不包含任何提交）。建立新分支將重新命名當前分支。>*.*<待分組>*.*<renderer.js
-A branch named>*.*<分支名為>*.*<待分組>*.*<renderer.js
-already exists`>*.*<已存在`>*.*<待分組>*.*<renderer.js
-already exists on the remote.>*.*<已存在於遠端>*.*<待分組>*.*<renderer.js
-URL or username/repository>*.*<URL 或使用者名稱/儲存庫名>*.*<待分組>*.*<renderer.js
-Repository URL or GitHub username and repository>*.*<儲存庫URL或GitHub使用者名稱和儲存庫>*.*<待分組>*.*<renderer.js
-Local path>*.*<本地路徑>*.*<待分組>*.*<renderer.js
-repository path>*.*<儲存庫路徑>*.*<待分組>*.*<renderer.js
-"Choose…">*.*<選擇…>*.*<待分組>*.*<renderer.js
-Filter your repositories>*.*<篩選儲存庫>*.*<待分組>*.*<renderer.js
-Your repositories>*.*<您的儲存庫>*.*<待分組>*.*<renderer.js
-Refresh the list of repositories>*.*<重新整理儲存庫列表>*.*<待分組>*.*<renderer.js
-Looks like there are no repositories for>*.*<沒有倉庫>*.*<待分組>*.*<renderer.js
-Refresh this list>*.*<重新整理此列表>*.*<待分組>*.*<renderer.js
-Loading repositories from ${n}…>*.*<從 ${n} 載入儲存庫…>*.*<待分組>*.*<renderer.js
-if you've created a repository recently.>*.*<如果您最近建立了儲存庫。>*.*<待分組>*.*<renderer.js
-Create a new repository>*.*<新建儲存庫>*.*<待分組>*.*<renderer.js
-Initialize this repository with a README>*.*<新增README檔案>*.*<待分組>*.*<renderer.js
-Add local repository>*.*<新增本地儲存庫>*.*<待分組>*.*<renderer.js
-Add repository>*.*<新增儲存庫>*.*<待分組>*.*<renderer.js
-||"Cancel">*.*<取消>*.*<待分組>*.*<renderer.js
-Current repository>*.*<當前儲存庫>*.*<待分組>*.*<renderer.js
-Switching to branch>*.*<切換到分支>*.*<待分組>*.*<renderer.js
-Switching to>*.*<切換到>*.*<待分組>*.*<renderer.js
-`Current branch is>*.*<`當前分支是>*.*<待分組>*.*<renderer.js
-Rebasing branch>*.*<變基分支>*.*<待分組>*.*<renderer.js
-Rebasing $>*.*<變基中 $>*.*<待分組>*.*<renderer.js
-Publish repository>*.*<釋出儲存庫>*.*<待分組>*.*<renderer.js
-Publish this repository to GitHub>*.*<將此倉庫釋出到GitHub>*.*<待分組>*.*<renderer.js
-Publish branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-Rebase in progress>*.*<正在重設變基>*.*<待分組>*.*<renderer.js
-Publish this branch to GitHub>*.*<將此分支釋出到GitHub>*.*<待分組>*.*<renderer.js
-Publish this branch to the remote>*.*<將此分支釋出到遠端>*.*<待分組>*.*<renderer.js
-Fetch ${e}>*.*<同步(拉取然後推送) ${e}>*.*<待分組>*.*<renderer.js
-Force push ${e}>*.*<強制推送 ${e}>*.*<待分組>*.*<renderer.js
-Pull ${e} with rebase>*.*<拉取 ${e} 至變基>*.*<待分組>*.*<renderer.js
-Pull ${e}>*.*<拉取 ${e}>*.*<待分組>*.*<renderer.js
-`Push ${e}`>*.*<`推送 ${e}`>*.*<待分組>*.*<renderer.js
-"History")>*.*<歷史>*.*<待分組>*.*<renderer.js
-No local changes>*.*<本地無更改>*.*<待分組>*.*<renderer.js
-There are no uncommitted changes in this repository. Here are some friendly suggestions for what to do next.>*.*<此儲存庫中沒有未提交的更改>*.*<待分組>*.*<renderer.js
-Summary (required)>*.*<摘要(必填)>*.*<待分組>*.*<renderer.js
-Create ${i}>*.*<建立 ${i}>*.*<待分組>*.*<renderer.js
-Delete ${i}>*.*<刪除 ${i}>*.*<待分組>*.*<renderer.js
-Update ${i}>*.*<更新 ${i}>*.*<待分組>*.*<renderer.js
-Your changes will modify your >*.*<您的更改將修改 >*.*<待分組>*.*<renderer.js
-most recent commit>*.*<最近提交>*.*<待分組>*.*<renderer.js
-Stop amending>*.*<停止修改>*.*<待分組>*.*<renderer.js
-to make these changes as a new commit.>*.*<將這些更改作為新提交。>*.*<待分組>*.*<renderer.js
-You don't have write access to >*.*<您沒有寫入許可權 >*.*<待分組>*.*<renderer.js
-. Want to>*.*<. 想要>*.*<待分組>*.*<renderer.js
-create a fork>*.*<建立分支>*.*<待分組>*.*<renderer.js
- is a protected branch. Want to>*.*< 是受保護的分支。想要>*.*<待分組>*.*<renderer.js
-switch branches>*.*<交換分支>*.*<待分組>*.*<renderer.js
-Amending>*.*<修改中>*.*<待分組>*.*<renderer.js
-"Amend">*.*<修改>*.*<待分組>*.*<renderer.js
-Committing>*.*<提交中>*.*<待分組>*.*<renderer.js
-"Commit";>*.*<提交>*.*<待分組>*.*<renderer.js
-last commit>*.*<上次提交>*.*<待分組>*.*<renderer.js
-${l} to ${t}>*.*<${l} 到 ${t}>*.*<待分組>*.*<renderer.js
-A commit summary is required to commit>*.*<提交時需要提交摘要>*.*<待分組>*.*<renderer.js
-Select one or more files to commit>*.*<請選擇一個或多個要提交的檔案>*.*<待分組>*.*<renderer.js
-Committing changes…>*.*<正在提交更改…>*.*<待分組>*.*<renderer.js
-" to ">*.*< 到 >*.*<待分組>*.*<renderer.js
-Great commit summaries contain fewer than 50 characters>*.*<優秀的提交摘要要精簡>*.*<待分組>*.*<renderer.js
-Place extra information in the description field.>*.*<在描述欄位中放置額外資訊。>*.*<待分組>*.*<renderer.js
-okButtonText:"Clone">*.*<克隆>*.*<待分組>*.*<renderer.js
-If you have a GitHub Enterprise or AE account at work, sign in to it to get access to your repositories.>*.*<如果您有GitHub Enterprise或AE帳戶，請登入該帳戶以訪問您的儲存庫。>*.*<待分組>*.*<renderer.js
-Select,>*.*<選擇,>*.*<待分組>*.*<renderer.js
-Clone As:>*.*<克隆到:>*.*<待分組>*.*<renderer.js
-label:"Name">*.*<名稱>*.*<待分組>*.*<renderer.js
-Sorry, I can't find any repository matching>*.*<沒有匹配的儲存庫>*.*<待分組>*.*<renderer.js
-" on ",>*.*< 在 >*.*<待分組>*.*<renderer.js
-repository name>*.*<儲存庫名稱>*.*<待分組>*.*<renderer.js
-Description>*.*<描述>*.*<待分組>*.*<renderer.js
-Create repository>*.*<新建儲存庫>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Cancel",>*.*<取消>*.*<待分組>*.*<renderer.js
-label:"Cancel",>*.*<取消>*.*<待分組>*.*<renderer.js
-label:"OK",>*.*<確定>*.*<待分組>*.*<renderer.js
-Current branch>*.*<當前分支>*.*<待分組>*.*<renderer.js
-"Changes"),>*.*<),>*.*<待分組>*.*<renderer.js
-Description>*.*<描述>*.*<待分組>*.*<renderer.js
-Publish your repository to GitHub>*.*<將倉庫釋出到GitHub>*.*<待分組>*.*<renderer.js
-This repository is currently only available on your local machine. By publishing it on GitHub you can share it, and collaborate with others.>*.*<此倉庫當前僅在本地計算機上可用。透過在GitHub上釋出，您可以共享它，並與其他人協作。>*.*<待分組>*.*<renderer.js
-The current branch (>*.*<當前分支(>*.*<待分組>*.*<renderer.js
-) hasn't been published to the remote yet. By publishing it >*.*<)尚未釋出到遠端。透過釋出它 >*.*<待分組>*.*<renderer.js
-to GitHub>*.*<到 GitHub>*.*<待分組>*.*<renderer.js
- you can share it, >*.*< 你可以分享, >*.*<待分組>*.*<renderer.js
-open a pull request,>*.*<開啟拉取請求>*.*<待分組>*.*<renderer.js
-and collaborate with others.>*.*<並與他人合作。>*.*<待分組>*.*<renderer.js
-Always available in the toolbar for local repositories or>*.*<使用快捷鍵>*.*<待分組>*.*<renderer.js
-Publish your branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-") has">*.*<)有>*.*<待分組>*.*<renderer.js
-a commit>*.*<1項提交>*.*<待分組>*.*<renderer.js
-"commits",>*.*<多項提交>*.*<待分組>*.*<renderer.js
-" on",>*.*< 在>*.*<待分組>*.*<renderer.js
-the remote>*.*<遠端>*.*<待分組>*.*<renderer.js
-" that">*.*< 那>*.*<待分組>*.*<renderer.js
-does not>*.*<不是>*.*<待分組>*.*<renderer.js
-"do not">*.*<不要>*.*<待分組>*.*<renderer.js
- exist on your machine.>*.*< 存在於您的計算機上。>*.*<待分組>*.*<renderer.js
-Open the repository in your external editor>*.*<在檔案管理器中檢視儲存庫>*.*<待分組>*.*<renderer.js
-Could not find matching menu item for ${e}>*.*<找不到的匹配選單項 ${e}>*.*<待分組>*.*<renderer.js
-"Options">*.*<選項>*.*<待分組>*.*<renderer.js
-Select your editor in>*.*<選擇編輯器：>*.*<待分組>*.*<renderer.js
-View the files of your repository in ${e}>*.*<在資源管理器中檢視儲存庫>*.*<待分組>*.*<renderer.js
- menu or>*.*<選單 或 快捷鍵:>*.*<待分組>*.*<renderer.js
-changed ${1===e?"file":"files"}>*.*<檔案>*.*<待分組>*.*<renderer.js
-"Undo"))>*.*<))>*.*<待分組>*.*<renderer.js
-Undo is disabled while the repository is being updated>*.*<更新倉庫時禁用撤消>*.*<待分組>*.*<renderer.js
-Undo commit>*.*<撤消提交>*.*<待分組>*.*<renderer.js
-Committed >*.*<提交於>*.*<待分組>*.*<renderer.js
- ago>*.*<前>*.*<待分組>*.*<renderer.js
-"file":"files">*.*<檔案>*.*<待分組>*.*<renderer.js
- changed $>*.*< 項變更$>*.*<待分組>*.*<renderer.js
-Accounts>*.*<帳戶>*.*<待分組>*.*<renderer.js
-Integrations>*.*<整合>*.*<待分組>*.*<renderer.js
-Appearance>*.*<主題>*.*<待分組>*.*<renderer.js
-"Prompts")>*.*<提示>*.*<待分組>*.*<renderer.js
-Advanced>*.*<高階>*.*<待分組>*.*<renderer.js
-Applications>*.*<應用>*.*<待分組>*.*<renderer.js
-Show a confirmation dialog before...>*.*<確認對話方塊>*.*<待分組>*.*<renderer.js
-Removing repositories>*.*<刪除倉庫>*.*<待分組>*.*<renderer.js
-Discarding changes>*.*<放棄更改>*.*<待分組>*.*<renderer.js
-Discarding changes permanently>*.*<永久放棄更改>*.*<待分組>*.*<renderer.js
-Force pushing>*.*<強制推送>*.*<待分組>*.*<renderer.js
-External editor>*.*<外部編輯器>*.*<待分組>*.*<renderer.js
-No editors found.>*.*<找不到編輯器。>*.*<待分組>*.*<renderer.js
-Install >*.*<安裝 >*.*<待分組>*.*<renderer.js
-Loading system theme>*.*<載入系統主題>*.*<待分組>*.*<renderer.js
-High Contrast>*.*<高對比度>*.*<待分組>*.*<renderer.js
-Customizable High Contrast Theme>*.*<可定製的高對比度主題>*.*<待分組>*.*<renderer.js
-title:"Dark">*.*<暗夜主題>*.*<待分組>*.*<renderer.js
-GitHub Desktop is for you too, creatures of the night>*.*<黑夜模式>*.*<待分組>*.*<renderer.js
-title:"Light">*.*<白晝主題>*.*<待分組>*.*<renderer.js
-The default theme of GitHub Desktop>*.*<預設主題>*.*<待分組>*.*<renderer.js
-title:"System">*.*<系統主題>*.*<待分組>*.*<renderer.js
-Automatically switch theme to match system theme>*.*<跟隨系統自動切換主題>*.*<待分組>*.*<renderer.js
-Default branch name for new repositories>*.*<新建儲存庫時預設分支>*.*<待分組>*.*<renderer.js
-Other…>*.*<其他...>*.*<待分組>*.*<renderer.js
-These preferences will edit your global Git config.>*.*<這些首選項將編輯您的全域性Git配置>*.*<待分組>*.*<renderer.js
-If I have changes and I switch branches...>*.*<如果我有更改並切換分支...>*.*<待分組>*.*<renderer.js
-Ask me where I want the changes to go>*.*<詢問我要更改的位置>*.*<待分組>*.*<renderer.js
-Always bring my changes to my new branch>*.*<始終將我的更改帶到我的新分支>*.*<待分組>*.*<renderer.js
-Always stash and leave my changes on the current branch>*.*<始終將更改儲存並保留在當前分支上>*.*<待分組>*.*<renderer.js
-Background updates>*.*<後臺更新>*.*<待分組>*.*<renderer.js
-Periodically fetch and refresh status of all repositories>*.*<定期獲取和重新整理所有倉庫的狀態>*.*<待分組>*.*<renderer.js
-Allows the display of up-to-date status indicators in the repository list. Disabling this may improve performance with many repositories.>*.*<允許在倉庫列表中顯示最新狀態，禁用此選項可以大量提高倉庫效能。>*.*<待分組>*.*<renderer.js
-"Usage")>*.*<使用情況>*.*<待分組>*.*<renderer.js
-Use system OpenSSH (recommended)>*.*<使用系統OpenSSH(推薦)>*.*<待分組>*.*<renderer.js
-Notifications>*.*<通知>*.*<待分組>*.*<renderer.js
-Enable notifications>*.*<啟用通知>*.*<待分組>*.*<renderer.js
-Allows the display of notifications when high-signal events take place in the current repository.>*.*<允許在當前倉庫中發生高階事件時顯示通知。>*.*<待分組>*.*<renderer.js
-You need to>*.*<你需要>*.*<待分組>*.*<renderer.js
-to display these notifications from GitHub Desktop.>*.*<從GitHub DeskTop顯示這些通知>*.*<待分組>*.*<renderer.js
-GitHub Desktop has no permission to display notifications. Please, enable them in the>*.*<GitHub DeskTop沒有顯示通知的許可權。請在設定中啟用它們>*.*<待分組>*.*<renderer.js
-Notifications Settings>*.*<通知設定>*.*<待分組>*.*<renderer.js
-"enabled";>*.*<允許>*.*<待分組>*.*<renderer.js
-Make sure notifications are>*.*<確認GitHub DeskTop>*.*<待分組>*.*<renderer.js
-for GitHub Desktop in the>*.*<向你發出通知>*.*<待分組>*.*<renderer.js
-okButtonText:"Save">*.*<儲存>*.*<待分組>*.*<renderer.js
-Help GitHub Desktop improve by submitting>*.*<幫助GitHub Desktop改進，允許提交>*.*<待分組>*.*<renderer.js
-usage stats>*.*<使用狀態>*.*<待分組>*.*<renderer.js
-="Search",>*.*<搜尋>*.*<待分組>*.*<renderer.js
-Last fetched>*.*<最後一次同步在>*.*<待分組>*.*<renderer.js
-Never fetched>*.*<從未獲取>*.*<待分組>*.*<renderer.js
-Select branch to compare...>*.*<選擇分支進行比較>*.*<待分組>*.*<renderer.js
-No branches to compare>*.*<沒有分支>*.*<待分組>*.*<renderer.js
-The compared branch (>*.*<比較的分支 (>*.*<待分組>*.*<renderer.js
-is up to date with your branch>*.*<是您分支的最新資訊>*.*<待分組>*.*<renderer.js
-Your branch is up to date with the compared branch>*.*<您的分支與比較的分支是最新的>*.*<待分組>*.*<renderer.js
-Check for Updates>*.*<檢查更新>*.*<待分組>*.*<renderer.js
-Quit and Install Update>*.*<退出並安裝更新>*.*<待分組>*.*<renderer.js
-Checking for updates…>*.*<正在檢查更新...>*.*<待分組>*.*<renderer.js
-Downloading update…>*.*<正在下載…>*.*<待分組>*.*<renderer.js
-You have the latest version (last checked>*.*<當前已是最新版本 (最後檢查時間:>*.*<待分組>*.*<renderer.js
-An update has been downloaded and is ready to be installed.>*.*<已下載更新並準備安裝。>*.*<待分組>*.*<renderer.js
-Unknown update status>*.*<未知更新狀態>*.*<待分組>*.*<renderer.js
-Couldn't determine the last time an update check was performed. You may be running an old version. Please try manually checking for updates and contact GitHub Support if the problem persists>*.*<無法確定上次執行更新檢查的時間，您可能正在執行舊版本，請嘗試手動檢查更新，如果問題仍然存在，請聯絡GitHub支援>*.*<待分組>*.*<renderer.js
-Looking for the latest features?>*.*<想要檢視最新功能？>*.*<待分組>*.*<renderer.js
-Check out the>*.*<請檢視>*.*<待分組>*.*<renderer.js
-Beta Channel>*.*<測試版>*.*<待分組>*.*<renderer.js
-release notes>*.*<釋出記錄>*.*<待分組>*.*<renderer.js
-`Version ${t}`>*.*<`版本 ${t}`>*.*<待分組>*.*<renderer.js
-Terms and Conditions>*.*<服務條款>*.*<待分組>*.*<renderer.js
-License and Open Source Notices>*.*<許可證和開源宣告>*.*<待分組>*.*<renderer.js
-okButtonText:"Close",>*.*<關閉>*.*<待分組>*.*<renderer.js
-"Close"):>*.*<):>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Close">*.*<Close>*.*<待分組>*.*<renderer.js
-||"Close">*.*<關閉>*.*<待分組>*.*<renderer.js
-just now>*.*<此刻>*.*<待分組>*.*<renderer.js
-Repository settings>*.*<儲存庫設定>*.*<待分組>*.*<renderer.js
-"Remote")>*.*<遠端>*.*<待分組>*.*<renderer.js
-Fork behavior>*.*<分支行為>*.*<待分組>*.*<renderer.js
-Git config>*.*<Git 配置>*.*<待分組>*.*<renderer.js
-Ignored files>*.*<忽略檔案>*.*<待分組>*.*<renderer.js
-Primary remote repository (>*.*<遠端儲存庫 (>*.*<待分組>*.*<renderer.js
-Remote URL>*.*<遠端 URL>*.*<待分組>*.*<renderer.js
-Editing>*.*<編輯>*.*<待分組>*.*<renderer.js
-This file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected>*.*<檔案，該檔案指定Git應該忽略的故意未跟蹤的檔案，Git已經跟蹤的檔案不受影響>*.*<待分組>*.*<renderer.js
-Learn more>*.*<瞭解更多>*.*<待分組>*.*<renderer.js
-For this repository I wish to>*.*<對於此倉庫，我想>*.*<待分組>*.*<renderer.js
-Use my global Git config>*.*<使用全域性Git配置>*.*<待分組>*.*<renderer.js
-Use a local Git config>*.*<使用本地Git配置>*.*<待分組>*.*<renderer.js
-Default branch>*.*<預設分支>*.*<待分組>*.*<renderer.js
-Recent branches>*.*<最近分支>*.*<待分組>*.*<renderer.js
-Other branches>*.*<其它分支>*.*<待分組>*.*<renderer.js
-Unknown identifier>*.*<未知識別符號>*.*<待分組>*.*<renderer.js
-Checking for ability to merge automatically...>*.*<正在檢查允許自動合併...>*.*<待分組>*.*<renderer.js
-This branch is up to date with>*.*<此分支是最新的>*.*<待分組>*.*<renderer.js
-This will merge>*.*<這將合併>*.*<待分組>*.*<renderer.js
-" from ">*.*< 自 >*.*<待分組>*.*<renderer.js
-" into ">*.*< 到 >*.*<待分組>*.*<renderer.js
-Unable to merge unrelated histories in this repository>*.*<無法在此倉庫中合併不相關的歷史記錄>*.*<待分組>*.*<renderer.js
-There will be>*.*<這將會>*.*<待分組>*.*<renderer.js
-${n} conflicted ${r}>*.*<${n} 與 ${r} 衝突>*.*<待分組>*.*<renderer.js
-when merging>*.*<當合並時>*.*<待分組>*.*<renderer.js
-"Rebase ">*.*<變基 >*.*<待分組>*.*<renderer.js
-Create a merge commit>*.*<建立合併提交>*.*<待分組>*.*<renderer.js
-The commits from the selected branch will be added to the current branch via a merge commit>*.*<來自所選分支的提交將透過合併提交新增到當前分支>*.*<待分組>*.*<renderer.js
-Squash and merge>*.*<壓縮合並>*.*<待分組>*.*<renderer.js
-The commits in the selected branch will be combined into one commit in the current branch>*.*<選定分支中的提交將合併為當前分支中的一個提交>*.*<待分組>*.*<renderer.js
-label:"Rebase",>*.*<變基>*.*<待分組>*.*<renderer.js
-The commits from the selected branch will be rebased and added to the current branch>*.*<來自所選分支的提交將重新設定基礎並新增到當前分支>*.*<待分組>*.*<renderer.js
-Squash and >*.*<壓縮並>*.*<待分組>*.*<renderer.js
-Merge into>*.*<合併到>*.*<待分組>*.*<renderer.js
-Checking for ability to merge automatically...>*.*<正在檢查可允許的自動合併>*.*<待分組>*.*<renderer.js
-Authentication failed. Some common reasons include:\n\n- You are not logged in to your account: see File > Options.\n- You may need to log out and log back in to refresh your token.\n- You do not have permission to access this repository.\n- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.\n- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.\n- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.\n- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service>*.*<身份驗證失敗。一些常見原因包括：\n\n- 您尚未登入到您的帳戶：請參閱檔案>選項。\n- 您可能需要登出並重新登入才能重新整理令牌。\n- 您沒有訪問此儲存庫的許可權。\n- 儲存庫存檔在 GitHub 上。檢查儲存庫設定以確認您仍可以推送提交。\n- 如果您使用 SSH 身份驗證，請檢查您的金鑰是否已新增到 ssh 代理並與您的帳戶關聯。\n- 如果使用 SSH 身份驗證，請確儲儲存庫託管服務的主機金鑰驗證透過。\n- 如果使用了使用者名稱/密碼身份驗證，則可能需要使用個人訪問令牌而不是帳戶密碼。請檢視儲存庫託管服務的檔案>*.*<待分組>*.*<renderer.js
-The SSH key is unverified>*.*<SSH金鑰未驗證>*.*<待分組>*.*<renderer.js
-The remote disconnected. Check your Internet connection and try again>*.*<遠端已斷開連線。請檢查您的Internet連線，然後重試>*.*<待分組>*.*<renderer.js
-The host is down. Check your Internet connection and try again>*.*<主機已關閉。請檢查您的Internet連線，然後重試>*.*<待分組>*.*<renderer.js
-We found some conflicts while trying to rebase. Please resolve the conflicts before continuing>*.*<我們在嘗試重新變基時發現了一些衝突。請在繼續之前解決衝突>*.*<待分組>*.*<renderer.js
-We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes>*.*<嘗試合併時發現一些衝突。請解決衝突並提交更改>*.*<待分組>*.*<renderer.js
-The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed>*.*<儲存庫似乎不再存在。您可能沒有訪問許可權，或者它可能已被刪除或重新命名>*.*<待分組>*.*<renderer.js
-The repository has been updated since you last pulled. Try pulling before pushing>*.*<自上次提取後，儲存庫已更新。在推送之前試著拉取>*.*<待分組>*.*<renderer.js
-Could not delete the branch. It was probably already deleted>*.*<無法刪除分支。它可能已被刪除>*.*<待分組>*.*<renderer.js
-The branch is the repository's default branch and cannot be deleted>*.*<該分支是倉庫的預設分支，無法刪除>*.*<待分組>*.*<renderer.js
-To finish reverting, please merge and commit the changes>*.*<要完成還原，請合併並提交更改>*.*<待分組>*.*<renderer.js
-There aren’t any changes left to apply>*.*<沒有要應用的任何更改>*.*<待分組>*.*<renderer.js
-There aren’t any remote branches that match the current branch>*.*<沒有任何與當前分支匹配的遠端分支>*.*<待分組>*.*<renderer.js
-There are no changes to commit>*.*<沒有要提交的更改>*.*<待分組>*.*<renderer.js
-A submodule was removed from .gitmodules, but the folder still exists in the repository. Delete the folder, commit the change, then try again>*.*<已從中刪除子模組。gitmodules，但該資料夾仍存在於倉庫中。刪除資料夾，提交更改，然後重試>*.*<待分組>*.*<renderer.js
-A submodule points to a location which does not exist>*.*<子模組指向不存在的位置>*.*<待分組>*.*<renderer.js
-A submodule points to a commit which does not exist>*.*<子模組指向不存在的提交>*.*<待分組>*.*<renderer.js
-Permission denied.>*.*<許可權被拒絕。>*.*<待分組>*.*<renderer.js
-This is not something we can merge>*.*<這不是我們可以合併的東西>*.*<待分組>*.*<renderer.js
-This is not something we can rebase>*.*<這不是我們可以調整的變基>*.*<待分組>*.*<renderer.js
-The merge you attempted is not a fast-forward, so it cannot be performed on an empty branch>*.*<您嘗試的合併不是快進，因此無法在空分支上執行>*.*<待分組>*.*<renderer.js
-The requested changes conflict with one or more files in the repository>*.*<請求的更改與倉庫中的一個或多個檔案衝突>*.*<待分組>*.*<renderer.js
-A branch with that name already exists>*.*<具有該名稱的分支已存在>*.*<待分組>*.*<renderer.js
-Bad revision>*.*<錯誤的修訂>*.*<待分組>*.*<renderer.js
-This is not a git repository>*.*<這不是git倉庫>*.*<待分組>*.*<renderer.js
-This branch is protected from force-push operations>*.*<此分支受到強制推送操作的保護>*.*<待分組>*.*<renderer.js
-This branch is protected and any changes requires an approved review. Open a pull request with changes targeting this branch instead>*.*<此分支受到保護，任何更改都需要經過批准的審查。開啟一個pull請求，更改的目標改為此分支>*.*<待分組>*.*<renderer.js
-The push operation includes a file which exceeds GitHub's file size restriction of 100MB. Please remove the file from history and try again>*.*<推送操作包括一個超過GitHub的100MB檔案大小限制的檔案。請從歷史記錄中刪除該檔案，然後重試>*.*<待分組>*.*<renderer.js
-The branch name cannot be a 40-character string of hexadecimal characters, as this is the format that Git uses for representing objects>*.*<分支名稱不能是由十六進位制字元組成的40個字元的字串，因為這是Git用於表示物件的格式>*.*<待分組>*.*<renderer.js
-The force push has been rejected for the current branch>*.*<當前分支的強制推送已被拒絕>*.*<待分組>*.*<renderer.js
-A ref cannot be longer than 255 characters>*.*<引用長度不能超過255個字元>*.*<待分組>*.*<renderer.js
-Unable to merge unrelated histories in this repository.>*.*<無法在此倉庫中合併不相關的歷史記錄>*.*<待分組>*.*<renderer.js
-Keep my email address private>*.*<無法推送這些提交，因為它們包含GitHub上標記為專用的電子郵件地址。要繼續推送，請訪問https://github.com/settings/emails，取消選中“保持我的電子郵件地址私有”，然後切換回GitHub桌面以推動提交。然後可以再次啟用該設定>*.*<待分組>*.*<renderer.js
-Git LFS attribute found in global Git configuration does not match expected value>*.*<在全域性Git配置中找到的Git LFS屬性與預期值不匹配>*.*<待分組>*.*<renderer.js
-This branch cannot be deleted from the remote repository because it is marked as protected>*.*<無法從遠端倉庫中刪除此分支，因為它被標記為受保護>*.*<待分組>*.*<renderer.js
-The push was rejected by the remote server because a required status check has not been satisfied>*.*<推送被遠端伺服器拒絕，因為未滿足所需的狀態檢查>*.*<待分組>*.*<renderer.js
-The branch could not be renamed>*.*<無法重新命名分支>*.*<待分組>*.*<renderer.js
-The path does not exist on disk>*.*<磁碟上不存在路徑>*.*<待分組>*.*<renderer.js
-The object was not found in the Git repository>*.*<在Git倉庫中找不到該物件>*.*<待分組>*.*<renderer.js
-This path is not a valid path inside the repository>*.*<此路徑不是倉庫中的有效路徑>*.*<待分組>*.*<renderer.js
-A lock file already exists in the repository, which blocks this operation from completing>*.*<倉庫中已存在鎖定檔案，這將阻止此操作完成>*.*<待分組>*.*<renderer.js
-There is no merge in progress, so there is nothing to abort>*.*<沒有正在進行的合併，因此沒有要中止的內容>*.*<待分組>*.*<renderer.js
-The remote branch does not exist>*.*<遠端分支不存在>*.*<待分組>*.*<renderer.js
-Unable to switch branches as there are working directory changes which would be overwritten. Please commit or stash your changes>*.*<無法切換分支，因為存在將被覆蓋的工作目錄更改。請提交或隱藏您的更改>*.*<待分組>*.*<renderer.js
-There are unresolved conflicts in the working directory>*.*<工作目錄中存在未解決的衝突>*.*<待分組>*.*<renderer.js
-A tag with that name already exists>*.*<具有該名稱的標記已存在>*.*<待分組>*.*<renderer.js
-label:"Unified",>*.*<標準>*.*<待分組>*.*<renderer.js
-"Split")>*.*<分割>*.*<待分組>*.*<renderer.js
-Whitespace>*.*<空格>*.*<待分組>*.*<renderer.js
-Hide whitespace changes>*.*<隱藏空格更改>*.*<待分組>*.*<renderer.js
-Interacting with individual lines or hunks will be disabled while hiding whitespace.>*.*<隱藏空格時將禁用與單行或塊的互動。>*.*<待分組>*.*<renderer.js
-Diff display>*.*<差異顯示>*.*<待分組>*.*<renderer.js
-Desktop is unable to push commits to this branch because there are commits on the remote that are not present on your local branch. Fetch these new commits before pushing in order to reconcile them with your local commits.>*.*<無法將推送提交到此分支，因為遠端上的提交在本地分支上不存在。在推送之前獲取這些新提交，以使它們與您的本地提交同步。>*.*<待分組>*.*<renderer.js
-Publish branch?>*.*<釋出分支?>*.*<待分組>*.*<renderer.js
-Push local changes?>*.*<推送本地更改?>*.*<待分組>*.*<renderer.js
-Publish branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-Push commits>*.*<推送提交>*.*<待分組>*.*<renderer.js
-Create without pushing>*.*<無推送建立>*.*<待分組>*.*<renderer.js
-Your branch must be published before opening a pull request.>*.*<您的分支必須在開啟拉取請求之前釋出。>*.*<待分組>*.*<renderer.js
-Always available in the toolbar when there are local commits waiting to be pushed or >*.*<儲存庫選單 或 快捷鍵:>*.*<待分組>*.*<renderer.js
-Could not find matching menu item for push>*.*<找不到匹配的推送選單項>*.*<待分組>*.*<renderer.js
-1 local commit>*.*<1 個本地提交>*.*<待分組>*.*<renderer.js
-local commits`>*.*<個本地提交`>*.*<待分組>*.*<renderer.js
-`You have>*.*<`你有>*.*<待分組>*.*<renderer.js
-waiting to be pushed to>*.*<等待被推送到>*.*<待分組>*.*<renderer.js
-`Push >*.*<`推送 >*.*<待分組>*.*<renderer.js
-to the ${t.name} remote>*.*<到遠端 ${t.name}>*.*<待分組>*.*<renderer.js
-"commits")>*.*<提交>*.*<待分組>*.*<renderer.js
-An updated version of GitHub Desktop is available and will be installed at the next launch. See>*.*< GitHub Desktop 有新版本可用，將在下次啟動時安裝。檢視>*.*<待分組>*.*<renderer.js
-what's new>*.*<更新內容>*.*<待分組>*.*<renderer.js
-" or",>*.*< 或>*.*<待分組>*.*<renderer.js
-restart GitHub Desktop>*.*<重啟 GitHub Desktop>*.*<待分組>*.*<renderer.js
-Stashed Changes>*.*<暫存的更改>*.*<待分組>*.*<renderer.js
-Unable to restore stash when changes are present on your branch.>*.*<當前的分支存在更改，無法恢復暫存。>*.*<待分組>*.*<renderer.js
-okButtonText:"Restore">*.*<恢復>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Discard">*.*<放棄>*.*<待分組>*.*<renderer.js
-Stashed changes>*.*<暫存的更改>*.*<待分組>*.*<renderer.js
-Copy repo name>*.*<複製倉庫名稱>*.*<待分組>*.*<renderer.js
-Copy repo path>*.*<複製倉庫路徑>*.*<待分組>*.*<renderer.js
-View on GitHub>*.*<在GitHub上檢視>*.*<待分組>*.*<renderer.js
-Open in>*.*<開啟於>*.*<待分組>*.*<renderer.js
-Remove…>*.*<移除...>*.*<待分組>*.*<renderer.js
-"Remove",>*.*<移除>*.*<待分組>*.*<renderer.js
-"Create":"Change">*.*<建立>*.*<待分組>*.*<renderer.js
-" alias">*.*< 別名>*.*<待分組>*.*<renderer.js
-Show in Explorer>*.*<在資源管理器中顯示>*.*<待分組>*.*<renderer.js
-Copy file path>*.*<複製檔案路徑>*.*<待分組>*.*<renderer.js
-Copy relative file path>*.*<複製檔案相對路徑>*.*<待分組>*.*<renderer.js
-Open in external editor>*.*<在外部編輯器中開啟>*.*<待分組>*.*<renderer.js
-Open with default program>*.*<使用預設程式開啟>*.*<待分組>*.*<renderer.js
-Recycle Bin>*.*<回收站>*.*<待分組>*.*<renderer.js
-Ignore file (add to .gitignore)>*.*<忽略此檔案(新增到.gitignore)>*.*<待分組>*.*<renderer.js
-Ignore all ${e} files (add to .gitignore)>*.*<忽略所有 ${e} 檔案 (新增到.gitignore)>*.*<待分組>*.*<renderer.js
-View your stashed changes>*.*<檢視暫存更改>*.*<待分組>*.*<renderer.js
-You have >*.*<你有 >*.*<待分組>*.*<renderer.js
-"change":"changes">*.*<項更改>*.*<待分組>*.*<renderer.js
- in progress that you have not yet committed.>*.*<在你的程式中，您尚未提交。>*.*<待分組>*.*<renderer.js
-When a stash exists, access it at the bottom of the Changes tab to the left.>*.*<當暫存更改存在時，可以在左側的“更改”選項卡的底部檢視這些暫存的更改。>*.*<待分組>*.*<renderer.js
-:`Discard ${e.length} selected changes`;>*.*<:`放棄 ${e.length} 項選中的更改`;>*.*<待分組>*.*<renderer.js
-Discard all changes…>*.*<放棄所有更改...>*.*<待分組>*.*<renderer.js
-Stash all changes…>*.*<暫存所有更改...>*.*<待分組>*.*<renderer.js
-Stash all changes>*.*<暫存所有更改>*.*<待分組>*.*<renderer.js
-Copy paths>*.*<複製路徑>*.*<待分組>*.*<renderer.js
-Copy relative paths>*.*<複製相對路徑>*.*<待分組>*.*<renderer.js
-Ignore file (add to .gitignore)>*.*<忽略檔案（新增到.gitignore）>*.*<待分組>*.*<renderer.js
-Ignore ${c.length} selected files (add to .gitignore)>*.*<忽略 ${c.length} 項選中的檔案 (新增到.gitignore)>*.*<待分組>*.*<renderer.js
-Include selected files>*.*<包括選中的檔案>*.*<待分組>*.*<renderer.js
-Exclude selected files>*.*<排除選中的檔案>*.*<待分組>*.*<renderer.js
-Ignore all ${e} files (add to .gitignore)>*.*<忽略所有檔案（新增到.gitignore）>*.*<待分組>*.*<renderer.js
-Undo commit>*.*<撤銷提交>*.*<待分組>*.*<renderer.js
-Undo commit…>*.*<撤銷提交>*.*<待分組>*.*<renderer.js
-Amend commit…>*.*<修改提交>*.*<待分組>*.*<renderer.js
-Reset to commit…>*.*<重置提交>*.*<待分組>*.*<renderer.js
-Revert changes in commit>*.*<在提交中還原更改>*.*<待分組>*.*<renderer.js
-Create branch from commit>*.*<根據提交建立分支>*.*<待分組>*.*<renderer.js
-Create Tag…>*.*<建立標籤>*.*<待分組>*.*<renderer.js
-Cherry-pick commit…>*.*<篩選提交>*.*<待分組>*.*<renderer.js
-Copy SHA>*.*<複製SHA>*.*<待分組>*.*<renderer.js
-View on GitHub>*.*<在Github上檢視>*.*<待分組>*.*<renderer.js
-View on GitHub Enterprise>*.*<在Github企業版上檢視>*.*<待分組>*.*<renderer.js
-Remove repository>*.*<移除倉庫>*.*<待分組>*.*<renderer.js
-Are you sure you want to remove the repository>*.*<確定從Github Desktop中移除倉庫>*.*<待分組>*.*<renderer.js
-from GitHub Desktop?>*.*<?>*.*<待分組>*.*<renderer.js
-Also move this repository to Recycle Bin>*.*<同時從本地刪除此倉庫>*.*<待分組>*.*<renderer.js
-The repository will be removed from GitHub Desktop:>*.*<儲存庫將從Github Desktop中移除：>*.*<待分組>*.*<renderer.js
-okButtonText:"Remove">*.*<移除>*.*<待分組>*.*<renderer.js
-This binary file has changed.>*.*<此二進位制檔案已更改>*.*<待分組>*.*<renderer.js
-Open file in external program.>*.*<使用外部程式開啟檔案>*.*<待分組>*.*<renderer.js
-Confirm discard changes>*.*<確認放棄更改>*.*<待分組>*.*<renderer.js
-Are you sure you want to discard the selected changes to:>*.*<確定要放棄選中的更改嗎？>*.*<待分組>*.*<renderer.js
-Do not show this message again>*.*<不再顯示此訊息>*.*<待分組>*.*<renderer.js
-Are you sure you want to discard all changes to:>*.*<確定要放棄所有更改嗎？>*.*<待分組>*.*<renderer.js
-Discard changes>*.*<放棄更改>*.*<待分組>*.*<renderer.js
-Changes can be restored by retrieving them from the >*.*<變更可以恢復，透過檢索>*.*<待分組>*.*<renderer.js
-Confirm discard changes>*.*<確認放棄更改>*.*<待分組>*.*<renderer.js
-Confirm discard all changes>*.*<確認放棄所有更改>*.*<待分組>*.*<renderer.js
-Discard all changes>*.*<放棄所有更改>*.*<待分組>*.*<renderer.js
-Your new branch will be based on your currently checked out branch (>*.*<新分支將基於當前簽出的分支 (>*.*<待分組>*.*<renderer.js
- is the >*.*< 是倉庫的 >*.*<待分組>*.*<renderer.js
- for your repository.>*.*<>*.*<待分組>*.*<renderer.js
-default branch>*.*<預設分支>*.*<待分組>*.*<renderer.js
-Create a branch>*.*<新建分支>*.*<待分組>*.*<renderer.js
-Create branch>*.*<確定>*.*<待分組>*.*<renderer.js
-The file is empty>*.*<空檔案>*.*<待分組>*.*<renderer.js
-The file was renamed but not changed>*.*<檔案已重新命名，但未進行更改>*.*<待分組>*.*<renderer.js
-The file is in conflict and must be resolved via the command line.>*.*<檔案衝突，必須透過命令列解決>*.*<待分組>*.*<renderer.js
-Only whitespace changes found>*.*<僅找到空白更改>*.*<待分組>*.*<renderer.js
-No content changes found>*.*<未找到更改內容>*.*<待分組>*.*<renderer.js
-Sign in using your browser>*.*<使用瀏覽器登入>*.*<待分組>*.*<renderer.js
-Continue with browser>*.*<開啟瀏覽器>*.*<待分組>*.*<renderer.js
-To improve the security of your account, GitHub now requires you to sign in through your browser.>*.*<為了提高賬戶安全性，您必須使用瀏覽器登入>*.*<待分組>*.*<renderer.js
-Your browser will redirect you back to GitHub Desktop once you've signed in. If your browser asks for your permission to launch GitHub Desktop please allow it to.>*.*<登入後，瀏覽器將會重定向到GitHub Desktop。如果您的瀏覽器請求您允許啟動GitHub Desktop，請點選允許。>*.*<待分組>*.*<renderer.js
-Your GitHub Enterprise instance requires you to sign in with your browser.>*.*<您必須使用瀏覽器登入GitHub Enterprise>*.*<待分組>*.*<renderer.js
-Continue>*.*<確定>*.*<待分組>*.*<renderer.js
-Enterprise address>*.*<企業版地址>*.*<待分組>*.*<renderer.js
-Choose a new alias for the repository>*.*<請輸入別名，此別名對應的儲存庫是>*.*<待分組>*.*<renderer.js
-repository alias`>*.*<儲存庫別名`>*.*<待分組>*.*<renderer.js
-alias`>*.*<別名`>*.*<待分組>*.*<renderer.js
-Clone repository…>*.*<克隆儲存庫>*.*<待分組>*.*<renderer.js
-Create new repository…>*.*<建立儲存庫>*.*<待分組>*.*<renderer.js
-Add existing repository…>*.*<新增儲存庫>*.*<待分組>*.*<renderer.js
-},"Add",>*.*<新增>*.*<待分組>*.*<renderer.js
-Sorry, I can't find that repository>*.*<抱歉，未找到儲存庫>*.*<待分組>*.*<renderer.js
-ProTip! Press >*.*<提示! >*.*<待分組>*.*<renderer.js
-to quickly add a local repository, and>*.*<可快速新增本地儲存庫，>*.*<待分組>*.*<renderer.js
- to clone from anywhere within the app>*.*<可快速進行克隆>*.*<待分組>*.*<renderer.js
-Filter your repositories>*.*<篩選儲存庫>*.*<待分組>*.*<renderer.js
-||"Filter",>*.*<請輸入篩選條件>*.*<待分組>*.*<renderer.js
-New branch>*.*<新建分支>*.*<待分組>*.*<renderer.js
-Sorry, I can't find that branch>*.*<抱歉，未找到分支>*.*<待分組>*.*<renderer.js
-Do you want to create a new branch instead?>*.*<是否建立新分支？>*.*<待分組>*.*<renderer.js
-Create new branch>*.*<建立新分支>*.*<待分組>*.*<renderer.js
-to quickly create a new branch from anywhere within the app>*.*<可快速建立分支>*.*<待分組>*.*<renderer.js
-Choose a branch to merge into>*.*<選擇一個分支合併到>*.*<待分組>*.*<renderer.js
-Publish your repository to GitHub. Need help?>*.*<將儲存庫釋出到Github。需要幫助？>*.*<待分組>*.*<renderer.js
-about remote repositories.>*.*<關於遠端儲存庫。>*.*<待分組>*.*<renderer.js
-actionTitle:"Publish",>*.*<釋出>*.*<待分組>*.*<renderer.js
-Welcome to GitHub Desktop>*.*<歡迎使用Github Desktop>*.*<待分組>*.*<renderer.js
-New to GitHub?>*.*<第一次使用Github？>*.*<待分組>*.*<renderer.js
-Create your free account.>*.*<建立賬戶>*.*<待分組>*.*<renderer.js
-Sign in to GitHub.com>*.*<GitHub登入>*.*<待分組>*.*<renderer.js
-Sign in to GitHub Enterprise>*.*<Github企業版登入>*.*<待分組>*.*<renderer.js
-Skip this step>*.*<跳過>*.*<待分組>*.*<renderer.js
-By creating an account, you agree to the>*.*<建立賬戶，代表您同意>*.*<待分組>*.*<renderer.js
-Terms of Service>*.*<服務條款>*.*<待分組>*.*<renderer.js
-For more information about GitHub's privacy practices, see the>*.*<更多資訊，請參閱>*.*<待分組>*.*<renderer.js
-GitHub Privacy Statement>*.*<GitHub 隱私宣告>*.*<待分組>*.*<renderer.js
-GitHub Desktop sends usage metrics to improve the product and inform feature decisions. Read more about what metrics are sent and how we use them>*.*<Github Desktop將傳送一些資料用於完善產品。閱讀相關資料及如何使用：>*.*<待分組>*.*<renderer.js
-GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise. Sign in below to get started with your existing projects.>*.*<>*.*<待分組>*.*<renderer.js
-Successfully merged >*.*<成功合併 >*.*<待分組>*.*<renderer.js
-Delete branch>*.*<刪除分支>*.*<待分組>*.*<renderer.js
-This action cannot be undone.>*.*<此操作不可撤銷>*.*<待分組>*.*<renderer.js
-Switch branch>*.*<選擇分支>*.*<待分組>*.*<renderer.js
-You have changes on this branch. What would you like to do with them?>*.*<此分支已更改。請選擇下一步操作:>*.*<待分組>*.*<renderer.js
-Leave my changes on ${this.state.currentBranchName}>*.*<保留 ${this.state.currentBranchName} 上的更改>*.*<待分組>*.*<renderer.js
-Bring my changes to>*.*<將更改帶到>*.*<待分組>*.*<renderer.js
-Your in-progress work will be stashed on this branch for you to return to later>*.*<更改將保留在此分支>*.*<待分組>*.*<renderer.js
-Your in-progress work will follow you to the new branch>*.*<更改將帶到新的分支>*.*<待分組>*.*<renderer.js
-Your current stash will be overwritten by creating a new stash>*.*<新暫存將覆蓋當前暫存>*.*<待分組>*.*<renderer.js
-Pushing to>*.*<正在推送到>*.*<待分組>*.*<renderer.js
-Hang on…>*.*<請稍後...>*.*<待分組>*.*<renderer.js
-View stash>*.*<檢視暫存>*.*<待分組>*.*<renderer.js
-Pull ${n.behind} ${1===n.behind?"commit":"commits"} from the ${t.name} remote>*.*<提交>*.*<待分組>*.*<renderer.js
-Pull ${t.name}>*.*<拉取 ${t.name}>*.*<待分組>*.*<renderer.js
-Always available in the toolbar when there are remote changes or>*.*<儲存庫選單 或 快捷鍵>*.*<待分組>*.*<renderer.js
-Open the repository page on GitHub in your browser>*.*<在瀏覽器中檢視儲存庫>*.*<待分組>*.*<renderer.js
-Create a tutorial repository…>*.*<建立儲存庫教程...>*.*<待分組>*.*<renderer.js
-Fetching>*.*<同步>*.*<待分組>*.*<renderer.js
-Refreshing repository>*.*<重新整理儲存庫>*.*<待分組>*.*<renderer.js
-Rename…>*.*<重新命名>*.*<待分組>*.*<renderer.js
-Copy branch name>*.*<複製分支名>*.*<待分組>*.*<renderer.js
-Delete…>*.*<刪除>*.*<待分組>*.*<renderer.js
-Checking out files>*.*<檢出檔案>*.*<待分組>*.*<renderer.js
-remote: Compressing objects>*.*<遠端: 壓縮物件>*.*<待分組>*.*<renderer.js
-Receiving objects>*.*<接收物件>*.*<待分組>*.*<renderer.js
-Resolving deltas>*.*<解決增量>*.*<待分組>*.*<renderer.js
-Compressing objects>*.*<壓縮物件>*.*<待分組>*.*<renderer.js
-Writing objects>*.*<寫入物件>*.*<待分組>*.*<renderer.js
-remote: Resolving deltas>*.*<遠端: 解決增量>*.*<待分組>*.*<renderer.js
-Repository settings>*.*<儲存庫設定>*.*<待分組>*.*<renderer.js
-No newline at end of file>*.*<檔案末尾沒有換行符>*.*<待分組>*.*<renderer.js
-Expand Up>*.*<展開上方>*.*<待分組>*.*<renderer.js
-Expand Down>*.*<展開下方>*.*<待分組>*.*<renderer.js
-Expand All>*.*<全部展開>*.*<待分組>*.*<renderer.js
-Open this submodule on GitHub Desktop>*.*<在 GitHub 桌面版中開啟此子模組>*.*<待分組>*.*<renderer.js
-View your stashed changes>*.*<檢視你的儲存的更改>*.*<待分組>*.*<renderer.js
-Publish your repository to GitHub>*.*<將你的儲存庫釋出到 GitHub>*.*<待分組>*.*<renderer.js
-Publish your branch>*.*<釋出你的分支>*.*<待分組>*.*<renderer.js
-Create a Pull Request from your current branch>*.*<從當前分支建立拉取請求>*.*<待分組>*.*<renderer.js
-Preview the Pull Request from your current branch>*.*<從當前分支預覽拉取請求>*.*<待分組>*.*<renderer.js
-Commit reachability>*.*<提交可達性>*.*<待分組>*.*<renderer.js
-Diff Options>*.*<差異選項>*.*<待分組>*.*<renderer.js
-sandboxed-markdown-component>*.*<沙盒 Markdown 元件>*.*<待分組>*.*<renderer.js
-Open the Visual Studio Code website>*.*<開啟 Visual Studio Code 網站>*.*<待分組>*.*<renderer.js
-Open the Atom website>*.*<開啟 Atom 網站>*.*<待分組>*.*<renderer.js
-Explore projects on GitHub>*.*<在 GitHub 上瀏覽專案>*.*<待分組>*.*<renderer.js
-Create a new repository>*.*<建立一個新的儲存庫>*.*<待分組>*.*<renderer.js
-Add a local repository>*.*<新增本地儲存庫>*.*<待分組>*.*<renderer.js
-Exit tutorial>*.*<退出教程>*.*<待分組>*.*<renderer.js
-Rename branch>*.*<重新命名分支>*.*<待分組>*.*<renderer.js
-Delete branch>*.*<刪除分支>*.*<待分組>*.*<renderer.js
-Delete remote branch>*.*<刪除遠端分支>*.*<待分組>*.*<renderer.js
-Publish repository>*.*<釋出儲存庫>*.*<待分組>*.*<renderer.js
-Publish branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-Reverting…>*.*<恢復...>*.*<待分組>*.*<renderer.js
-title:"System",>*.*<系統>*.*<待分組>*.*<renderer.js
-title:"Light",>*.*<亮色主題>*.*<待分組>*.*<renderer.js
-title:"Dark",>*.*<暗色主題>*.*<待分組>*.*<renderer.js
-High Contrast>*.*<高對比度主題>*.*<待分組>*.*<renderer.js
-title:"Options",>*.*<選項>*.*<待分組>*.*<renderer.js
-Add local repository>*.*<新增本地儲存庫>*.*<待分組>*.*<renderer.js
-Clone a repository>*.*<克隆一個儲存庫>*.*<待分組>*.*<renderer.js
-Unable to locate Git>*.*<找不到 Git>*.*<待分組>*.*<renderer.js
-Unable to open external editor>*.*<無法開啟外部編輯器>*.*<待分組>*.*<renderer.js
-License and Open Source Notices>*.*<許可證和開源通知>*.*<待分組>*.*<renderer.js
-Untrusted server>*.*<不受信任的伺服器>*.*<待分組>*.*<renderer.js
-Remove repository>*.*<移除儲存庫>*.*<待分組>*.*<renderer.js
-GitHub Open Source Applications Terms and Conditions>*.*<GitHub 開源應用程式條款和條件>*.*<待分組>*.*<renderer.js
-Command line tool installed>*.*<命令列工具已安裝>*.*<待分組>*.*<renderer.js
-Authentication failed>*.*<驗證失敗>*.*<待分組>*.*<renderer.js
-Unable to open shell>*.*<無法開啟 shell>*.*<待分組>*.*<renderer.js
-Initialize Git LFS>*.*<初始化 Git LFS>*.*<待分組>*.*<renderer.js
-Update existing Git LFS filters?>*.*<更新現有的 Git LFS 過濾器？>*.*<待分組>*.*<renderer.js
-Upstream already exists>*.*<上游已存在>*.*<待分組>*.*<renderer.js
-Confirm committing conflicted files>*.*<確認提交衝突檔案>*.*<待分組>*.*<renderer.js
-Files too large>*.*<檔案過大>*.*<待分組>*.*<renderer.js
-Newer commits on remote>*.*<遠端存在更新的提交>*.*<待分組>*.*<renderer.js
-Switch branch>*.*<切換分支>*.*<待分組>*.*<renderer.js
-Overwrite stash?>*.*<覆蓋臨時儲存的更改？>*.*<待分組>*.*<renderer.js
-Discard stash?>*.*<放棄臨時儲存的更改？>*.*<待分組>*.*<renderer.js
-Start tutorial>*.*<開始教程>*.*<待分組>*.*<renderer.js
-Push rejected>*.*<推送被拒絕>*.*<待分組>*.*<renderer.js
-Re-authorization required>*.*<需要重新授權>*.*<待分組>*.*<renderer.js
-Do you want to fork this repository?>*.*<是否要 fork 此儲存庫？>*.*<待分組>*.*<renderer.js
-Create a tag>*.*<建立標籤>*.*<待分組>*.*<renderer.js
-Delete tag>*.*<刪除標籤>*.*<待分組>*.*<renderer.js
-To contribute to the parent project>*.*<為了為父專案做貢獻>*.*<待分組>*.*<renderer.js
-For my own purposes>*.*<出於自己的目的>*.*<待分組>*.*<renderer.js
-How are you planning to use this fork?>*.*<你打算如何使用此 fork？>*.*<待分組>*.*<renderer.js
-Confirm discard changes>*.*<確認放棄更改>*.*<待分組>*.*<renderer.js
-title:"Error",>*.*<錯誤>*.*<待分組>*.*<renderer.js
-Move GitHub Desktop to the Applications folder?>*.*<將 GitHub 桌面版移動到應用程式資料夾中？>*.*<待分組>*.*<renderer.js
-Undo commit>*.*<撤消提交>*.*<待分組>*.*<renderer.js
-Reset to commit>*.*<重置到提交>*.*<待分組>*.*<renderer.js
-title:"Warning",>*.*<警告>*.*<待分組>*.*<renderer.js
-SSH Host>*.*<SSH 主機>*.*<待分組>*.*<renderer.js
-SSH Key Passphrase>*.*<SSH 金鑰密碼>*.*<待分組>*.*<renderer.js
-Are you sure you want to force push?>*.*<確認要強制推送嗎？>*.*<待分組>*.*<renderer.js
-SSH User Password>*.*<SSH 使用者密碼>*.*<待分組>*.*<renderer.js
-Open a pull request>*.*<開啟拉取請求>*.*<待分組>*.*<renderer.js
-Installing update…>*.*<安裝更新...>*.*<待分組>*.*<renderer.js
-Test Notifications>*.*<測試通知>*.*<待分組>*.*<renderer.js
-Pull Request checks failed>*.*<拉取請求檢查失敗>*.*<待分組>*.*<renderer.js
-Refreshing repository>*.*<正在重新整理儲存庫>*.*<待分組>*.*<renderer.js
-Copy repo name>*.*<複製程式碼倉庫名稱>*.*<待分組>*.*<renderer.js
-Copy repo path>*.*<複製程式碼倉庫路徑>*.*<待分組>*.*<renderer.js
-View on GitHub>*.*<在 GitHub 上檢視>*.*<待分組>*.*<renderer.js
-Remove alias>*.*<移除別名>*.*<待分組>*.*<renderer.js
-Clone repository…>*.*<克隆程式碼倉庫…>*.*<待分組>*.*<renderer.js
-Create new repository…>*.*<建立新程式碼倉庫…>*.*<待分組>*.*<renderer.js
-Add existing repository…>*.*<新增已有程式碼倉庫…>*.*<待分組>*.*<renderer.js
-label:"Undo",>*.*<撤銷>*.*<待分組>*.*<renderer.js
-label:"Redo",>*.*<重做>*.*<待分組>*.*<renderer.js
-Select all>*.*<全選>*.*<待分組>*.*<renderer.js
-To contribute to the parent repository>*.*<貢獻給父程式碼倉庫>*.*<待分組>*.*<renderer.js
-For my own purposes>*.*<為個人目的>*.*<待分組>*.*<renderer.js
-label:"Name",>*.*<名稱>*.*<待分組>*.*<renderer.js
-label:"Email",>*.*<郵箱>*.*<待分組>*.*<renderer.js
-Use my global Git config>*.*<使用全域性 Git 配置>*.*<待分組>*.*<renderer.js
-Use a local Git config>*.*<使用本地 Git 配置>*.*<待分組>*.*<renderer.js
-Discard all changes…>*.*<放棄所有更改…>*.*<待分組>*.*<renderer.js
-Copy paths>*.*<複製路徑>*.*<待分組>*.*<renderer.js
-Copy relative paths>*.*<複製相對路徑>*.*<待分組>*.*<renderer.js
-Ignore file (add to .gitignore)>*.*<Ignore file (新增到 .gitignore)>*.*<待分組>*.*<renderer.js
-Include selected files>*.*<包含所選檔案>*.*<待分組>*.*<renderer.js
-Exclude selected files>*.*<排除所選檔案>*.*<待分組>*.*<renderer.js
-label:"Unified",>*.*<統一的>*.*<待分組>*.*<renderer.js
-Hide whitespace changes>*.*<隱藏空白更改>*.*<待分組>*.*<renderer.js
-label:"Copy",>*.*<複製>*.*<待分組>*.*<renderer.js
-Expand whole file>*.*<展開整個檔案>*.*<待分組>*.*<renderer.js
-Collapse expanded lines>*.*<摺疊擴充套件的行>*.*<待分組>*.*<renderer.js
-Create Pull Request>*.*<建立拉取請求>*.*<待分組>*.*<renderer.js
-Preview Pull Request>*.*<預覽拉取請求>*.*<待分組>*.*<renderer.js
-Amend commit…>*.*<修改提交…>*.*<待分組>*.*<renderer.js
-Undo commit…>*.*<撤銷提交…>*.*<待分組>*.*<renderer.js
-Reset to commit…>*.*<重置到提交…>*.*<待分組>*.*<renderer.js
-Revert changes in commit>*.*<還原提交中的更改>*.*<待分組>*.*<renderer.js
-Create branch from commit>*.*<從提交建立分支>*.*<待分組>*.*<renderer.js
-Create Tag…>*.*<建立標籤…>*.*<待分組>*.*<renderer.js
-Cherry-pick commit…>*.*<精選提交…>*.*<待分組>*.*<renderer.js
-Copy SHA>*.*<複製 SHA>*.*<待分組>*.*<renderer.js
-Delete tag…>*.*<刪除標籤…>*.*<待分組>*.*<renderer.js
-File does not exist on disk>*.*<檔案不存在於磁碟上>*.*<待分組>*.*<renderer.js
-label:"Rename…",>*.*<重新命名…>*.*<待分組>*.*<renderer.js
-Copy branch name>*.*<複製分支名稱>*.*<待分組>*.*<renderer.js
-label:"Delete…",>*.*<刪除…>*.*<待分組>*.*<renderer.js
-Create a merge commit>*.*<建立合併提交>*.*<待分組>*.*<renderer.js
-Squash and merge>*.*<壓縮併合並>*.*<待分組>*.*<renderer.js
-label:"Rebase",>*.*<變基>*.*<待分組>*.*<renderer.js
-Yes, delete this branch on the remote>*.*<是的，在遠端刪除此分支>*.*<待分組>*.*<renderer.js
-Re-run failed checks>*.*<重新執行失敗的檢查>*.*<待分組>*.*<renderer.js
-Re-run all checks>*.*<重新執行所有檢查>*.*<待分組>*.*<renderer.js
-Do not show this message again>*.*<不再顯示此訊息>*.*<待分組>*.*<renderer.js
-Username or email address>*.*<使用者名稱或郵箱地址>*.*<待分組>*.*<renderer.js
-Password>*.*<密碼>*.*<待分組>*.*<renderer.js
-Authentication code>*.*<身份驗證碼>*.*<待分組>*.*<renderer.js
-Enterprise or AE address>*.*<企業或 AE 地址>*.*<待分組>*.*<renderer.js
-Configure manually>*.*<手動配置>*.*<待分組>*.*<renderer.js
-Ask me where I want the changes to go>*.*<詢問我要將更改放在哪裡>*.*<待分組>*.*<renderer.js
-Always bring my changes to my new branch>*.*<總是將我的更改帶到新分支>*.*<待分組>*.*<renderer.js
-Always stash and leave my changes on the current branch>*.*<總是隱藏並將我的更改留在當前分支上>*.*<待分組>*.*<renderer.js
-Periodically fetch and refresh status of all repositories>*.*<定期獲取並重新整理所有程式碼倉庫的狀態>*.*<待分組>*.*<renderer.js
-Use system OpenSSH (recommended)>*.*<使用系統 OpenSSH（推薦）>*.*<待分組>*.*<renderer.js
-Enable notifications>*.*<啟用通知>*.*<待分組>*.*<renderer.js
-label:"Other…",>*.*<其他…>*.*<待分組>*.*<renderer.js
-label:"OK",>*.*<確定>*.*<待分組>*.*<renderer.js
-label:"Cancel",>*.*<取消>*.*<待分組>*.*<renderer.js
-Removing repositories>*.*<移除程式碼倉庫>*.*<待分組>*.*<renderer.js
-Discarding changes>*.*<放棄更改>*.*<待分組>*.*<renderer.js
-Discarding changes permanently>*.*<永久性放棄更改>*.*<待分組>*.*<renderer.js
-Discarding stash>*.*<放棄暫存>*.*<待分組>*.*<renderer.js
-Force pushing>*.*<強制推送>*.*<待分組>*.*<renderer.js
-Undo commit>*.*<撤銷提交>*.*<待分組>*.*<renderer.js
-Local path>*.*<本地路徑>*.*<待分組>*.*<renderer.js
-Git ignore>*.*<Git ignore>*.*<待分組>*.*<renderer.js
-label:"License",>*.*<許可證>*.*<待分組>*.*<renderer.js
-Description>*.*<描述>*.*<待分組>*.*<renderer.js
-Initialize this repository with a README>*.*<使用 README 初始化此程式碼倉庫>*.*<待分組>*.*<renderer.js
-Create branch based on…>*.*<基於以下建立分支…>*.*<待分組>*.*<renderer.js
-Enterprise address>*.*<企業地址>*.*<待分組>*.*<renderer.js
-Organization>*.*<組織>*.*<待分組>*.*<renderer.js
-Also move this repository to Recycle Bin>*.*<同時將此程式碼倉庫移動到回收站>*.*<待分組>*.*<renderer.js
-Username>*.*<使用者名稱>*.*<待分組>*.*<renderer.js
-You have changes on this branch. What would you like to do with them?>*.*<您在此分支上有更改。您想如何處理它們？>*.*<待分組>*.*<renderer.js
-Remember passphrase>*.*<記住密語>*.*<待分組>*.*<renderer.js
-Remember password>*.*<記住密碼>*.*<待分組>*.*<renderer.js
-label:"base:",>*.*<基礎:>*.*<待分組>*.*<renderer.js
-View on GitHub>*.*<在 GitHub 上檢視>*.*<待分組>*.*<renderer.js
-okButtonText:"Save",>*.*<儲存>*.*<待分組>*.*<renderer.js
-okButtonText:"Yes",>*.*<確定>*.*<待分組>*.*<renderer.js
-cancelButtonText:"No",>*.*<取消>*.*<待分組>*.*<renderer.js
-Open repository>*.*<開啟儲存庫>*.*<待分組>*.*<renderer.js
-View stash>*.*<檢視暫存>*.*<待分組>*.*<renderer.js
-Publish repository>*.*<釋出儲存庫>*.*<待分組>*.*<renderer.js
-Publish branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-Publish branch>*.*<釋出分支>*.*<待分組>*.*<renderer.js
-Push commits>*.*<推送提交>*.*<待分組>*.*<renderer.js
-Create without pushing>*.*<建立而不推送>*.*<待分組>*.*<renderer.js
-okButtonText:"Restore",>*.*<還原>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Discard",>*.*<放棄>*.*<待分組>*.*<renderer.js
-Open in browser>*.*<在瀏覽器中開啟>*.*<待分組>*.*<renderer.js
-Create repository>*.*<建立儲存庫>*.*<待分組>*.*<renderer.js
-Add repository>*.*<新增儲存庫>*.*<待分組>*.*<renderer.js
-Exit tutorial>*.*<退出教程>*.*<待分組>*.*<renderer.js
-okButtonText:"Delete">*.*<刪除>*.*<待分組>*.*<renderer.js
-Retry clone>*.*<重試克隆>*.*<待分組>*.*<renderer.js
-okButtonText:"Close",>*.*<關閉>*.*<待分組>*.*<renderer.js
-Open options>*.*<開啟選項>*.*<待分組>*.*<renderer.js
-Add repository>*.*<Add repository>*.*<待分組>*.*<renderer.js
-Create repository>*.*<新增儲存庫>*.*<待分組>*.*<renderer.js
-okButtonText:"Clone",>*.*<克隆>*.*<待分組>*.*<renderer.js
-Open without Git>*.*<不使用 Git 開啟>*.*<待分組>*.*<renderer.js
-Install Git>*.*<安裝 Git>*.*<待分組>*.*<renderer.js
-Download Visual Studio Code>*.*<下載Visual Studio Code>*.*<待分組>*.*<renderer.js
-Publish repository>*.*<釋出儲存庫>*.*<待分組>*.*<renderer.js
-Add certificate>*.*<新增證書>*.*<待分組>*.*<renderer.js
-okButtonText:"Remove">*.*<移除>*.*<待分組>*.*<renderer.js
-buttonText:"Ok">*.*<確定>*.*<待分組>*.*<renderer.js
-Save and retry>*.*<儲存並重試>*.*<待分組>*.*<renderer.js
-Initialize Git LFS>*.*<初始化 Git LFS>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Not now",>*.*<暫不>*.*<待分組>*.*<renderer.js
-Update existing filters>*.*<更新現有過濾器>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Not now">*.*<暫不>*.*<待分組>*.*<renderer.js
-okButtonText:"Update",>*.*<更新>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Ignore",>*.*<忽略>*.*<待分組>*.*<renderer.js
-Install and restart>*.*<安裝並重啟>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Close">*.*<關閉>*.*<待分組>*.*<renderer.js
-Yes, commit files>*.*<確定，提交檔案>*.*<待分組>*.*<renderer.js
-Commit anyway>*.*<仍要提交>*.*<待分組>*.*<renderer.js
-okButtonText:"Fetch",>*.*<獲取>*.*<待分組>*.*<renderer.js
-Switch branch>*.*<切換分支>*.*<待分組>*.*<renderer.js
-Overwrite>*.*<覆蓋>*.*<待分組>*.*<renderer.js
-okButtonText:"Discard">*.*<放棄>*.*<待分組>*.*<renderer.js
-Continue>*.*<繼續>*.*<待分組>*.*<renderer.js
-Continue in browser>*.*<在瀏覽器中繼續>*.*<待分組>*.*<renderer.js
-Fork this repository>*.*<Fork 該儲存庫>*.*<待分組>*.*<renderer.js
-Create tag>*.*<建立標籤>*.*<待分組>*.*<renderer.js
-Stash changes and continue>*.*<儲存更改並繼續>*.*<待分組>*.*<renderer.js
-Move and Restart>*.*<移動並重啟>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Not Now",>*.*<暫不>*.*<待分組>*.*<renderer.js
-Create branch and cherry-pick>*.*<建立分支並挑選>*.*<待分組>*.*<renderer.js
-cancelButtonText:"No">*.*<cancelButtonText:>*.*<待分組>*.*<renderer.js
-I'm sure>*.*<確定>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Dismiss",>*.*<忽略>*.*<待分組>*.*<renderer.js
-Permanently discard changes>*.*<永久放棄更改>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Cancel",>*.*<取消>*.*<待分組>*.*<renderer.js
-Quit anyway>*.*<仍要退出>*.*<待分組>*.*<renderer.js
-cancelButtonText:"Back",>*.*<返回>*.*<待分組>*.*<renderer.js
-No history>*.*<無記錄>*.*<待分組>*.*<renderer.js
-No commit selected>*.*<未選擇提交>*.*<待分組>*.*<renderer.js
-This commit will be misattributed>*.*<此次提交有誤>*.*<待分組>*.*<renderer.js
-The email in your global Git config>*.*<Git 全域性配置檔案中的郵箱>*.*<待分組>*.*<renderer.js
-doesn't match your GitHub>*.*<與你的 GitHub 郵箱地址不匹配>*.*<待分組>*.*<renderer.js
-Learn more.>*.*<學習更多>*.*<待分組>*.*<renderer.js
-You can also choose an email local to this repository from the>*.*<你也可以從該程式碼庫中選擇一個與之關聯的郵箱>*.*<待分組>*.*<renderer.js
-Update email>*.*<更新郵箱>*.*<待分組>*.*<renderer.js
-"Ignore">*.*<忽略>*.*<待分組>*.*<renderer.js
-repository settings>*.*<儲存庫設定>*.*<待分組>*.*<renderer.js
-Primary remote repository>*.*<遠端倉庫>*.*<待分組>*.*<renderer.js
-Remote URL>*.*<遠端 URL>*.*<待分組>*.*<renderer.js
-Editing >*.*<編輯 >*.*<待分組>*.*<renderer.js
-This file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected>*.*<這個檔案指定了 Git 應該忽略的未跟蹤的檔案。已經被 Git 跟蹤的檔案不會受到影響。>*.*<待分組>*.*<renderer.js
-Ignored files>*.*<忽略的檔案>*.*<待分組>*.*<renderer.js
-Publish your repository to GitHub. Need help?>*.*<將你的程式碼庫釋出到 GitHub。需要幫助嗎？>*.*<待分組>*.*<renderer.js
- about remote repositories.>*.*<關於遠端倉庫>*.*<待分組>*.*<renderer.js
-actionTitle:"Publish",>*.*<釋出>*.*<待分組>*.*<renderer.js
-Pull requests targeting>*.*<針對的拉取請求目標>*.*<待分組>*.*<renderer.js
-will be shown in the pull request list>*.*<將顯示在拉取請求列表中>*.*<待分組>*.*<renderer.js
-I'll be using this fork…>*.*<使用這個 fork…>*.*<待分組>*.*<renderer.js
-For this repository I wish to>*.*<對於這個程式碼庫，我希望…>*.*<待分組>*.*<renderer.js
-Committing as>*.*<提交者為>*.*<待分組>*.*<renderer.js
-Your changes will modify your>*.*<更改將修改>*.*<待分組>*.*<renderer.js
-Stop amending>*.*<停止提交>*.*<待分組>*.*<renderer.js
-to make these changes as a new commit>*.*<將這些更改作為新提交進行儲存>*.*<待分組>*.*<renderer.js
-You don't have write access to>*.*<你沒有寫入許可權>*.*<待分組>*.*<renderer.js
-. Want to>*.*<. 想要>*.*<待分組>*.*<renderer.js
-create a fork>*.*<建立fork>*.*<待分組>*.*<renderer.js
-is a protected branch. Want to>*.*<是一個受保護的分支。想要>*.*<待分組>*.*<renderer.js
-switch branches>*.*<切換分支>*.*<待分組>*.*<renderer.js
-`${a} last commit`>*.*<`${a} 最後一次提交`>*.*<待分組>*.*<renderer.js
-`${l} to ${t}`>*.*<`${l} 到 ${t}`>*.*<待分組>*.*<renderer.js
-A commit summary is required to commit>*.*<提交時需要填寫提交摘要。>*.*<待分組>*.*<renderer.js
- last commit>*.*< 最後一次提交>*.*<待分組>*.*<renderer.js
-Diff display>*.*<顯示差異>*.*<待分組>*.*<renderer.js
-Submodule changes>*.*<子模組變更>*.*<待分組>*.*<renderer.js
-This is a submodule based on the repository>*.*<這是一個基於程式碼庫的子模組。>*.*<待分組>*.*<renderer.js
-You can open this submodule on GitHub Desktop as a normal repository to manage and commit any changes in it.>*.*<你可以將這個子模組在 GitHub Desktop 中作為普通程式碼庫開啟，以便管理並提交其中的任何更改。>*.*<待分組>*.*<renderer.js
-The diff is too large to be displayed by default.>*.*<差異太大，無法預設顯示。>*.*<待分組>*.*<renderer.js
-You can try to show it anyway, but performance may be negatively impacted.>*.*<你可以嘗試強制顯示，但可能會影響效能。>*.*<待分組>*.*<renderer.js
-Show diff>*.*<顯示差異>*.*<待分組>*.*<renderer.js
-The diff is too large to be displayed.>*.*<差異太大，無法顯示。>*.*<待分組>*.*<renderer.js
-This repository is currently only available on your local machine. By publishing it on GitHub you can share it, and collaborate with others.>*.*<目前，這個程式碼庫只在你本地的計算機上可用。將它釋出到 GitHub 上，你就可以與他人分享，並進行協作開發。>*.*<待分組>*.*<renderer.js
-There are no uncommitted changes in this repository. Here are some friendly suggestions for what to do next.>*.*<這個程式碼庫中沒有未提交的更改。以下是一些友好的建議，可以幫助你接下來做什麼。>*.*<待分組>*.*<renderer.js
-Unable to display diff when multiple>*.*<無法顯示差異，當選擇多個>*.*<待分組>*.*<renderer.js
-You can:>*.*<你可以：>*.*<待分組>*.*<renderer.js
-Select a single commit>*.*<選擇單個提交>*.*<待分組>*.*<renderer.js
-or a range of consecutive commits>*.*<或連續的提交範圍。>*.*<待分組>*.*<renderer.js
-to view a diff.>*.*<以檢視差異。>*.*<待分組>*.*<renderer.js
-Drag the commits to the branch menu to cherry-pick them.>*.*<將提交拖動到分支選單中以挑選它們。>*.*<待分組>*.*<renderer.js
-Drag the commits to squash or reorder them.>*.*<將提交拖動到一起以壓縮它們或重新排序。>*.*<待分組>*.*<renderer.js
-Right click on multiple commits to see options.>*.*<右鍵單擊多個提交以檢視選項。>*.*<待分組>*.*<renderer.js
-non-consecutive>*.*<非連續性的>*.*<待分組>*.*<renderer.js
-commits are selected.>*.*<提交。>*.*<待分組>*.*<renderer.js
-Your branch must be published before opening a pull request.>*.*<在發起拉取請求之前，你必須先將你的分支釋出到遠端程式碼庫。>*.*<待分組>*.*<renderer.js
-Would you like to publish>*.*<釋出>*.*<待分組>*.*<renderer.js
-now and open a pull request?>*.*<並且拉取？>*.*<待分組>*.*<renderer.js
-that haven't been pushed to the remote yet.>*.*<尚未推送到遠端的提交。>*.*<待分組>*.*<renderer.js
-Would you like to push your changes to>*.*<推送更改到>*.*<待分組>*.*<renderer.js
-before creating your pull request?>*.*<在建立拉取請求之前？>*.*<待分組>*.*<renderer.js
-Choose a branch to merge into >*.*<選擇一個要合併到的分支。>*.*<待分組>*.*<renderer.js
-The commits from the selected branch will be added to the current branch via a merge commit.>*.*<從所選分支的提交將透過合併提交的方式新增到當前分支>*.*<待分組>*.*<renderer.js
-The commits in the selected branch will be combined into one commit in the current branch.>*.*<所選分支中的提交將被合併為當前分支的一個提交>*.*<待分組>*.*<renderer.js
-The commits from the selected branch will be rebased and added to the current branch.>*.*<從所選分支的提交將被變基（rebase）並新增到當前分支>*.*<待分組>*.*<renderer.js
-Contribute to a project that interests you>*.*<為你感興趣的專案做出貢獻>*.*<待分組>*.*<renderer.js
-Get started on a brand new project>*.*<開始一個全新的專案>*.*<待分組>*.*<renderer.js
-Work on an existing project in GitHub Desktop>*.*<在 GitHub Desktop 的一個專案上工作>*.*<待分組>*.*<renderer.js
-Publish this repository to GitHub>*.*<將這個程式碼庫釋出到 GitHub>*.*<待分組>*.*<renderer.js
-Cannot publish unborn HEAD>*.*<無法釋出未出現的 HEAD>*.*<待分組>*.*<renderer.js
-Automatically switch theme to match system theme>*.*<自動切換主題以匹配系統主題>*.*<待分組>*.*<renderer.js
-The default theme of GitHub Desktop>*.*<GitHub Desktop 的預設主題>*.*<待分組>*.*<renderer.js
-GitHub Desktop is for you too, creatures of the night>*.*<GitHub Desktop 也適合夜間工作的你>*.*<待分組>*.*<renderer.js
-Customizable High Contrast Theme>*.*<可定製的高對比度主題>*.*<待分組>*.*<renderer.js
-The default branch in your repository. Pick this to start on something new that's not dependent on your current branch.>*.*<你的程式碼庫中的預設分支。選擇它來開始一些不依賴於當前分支的新工作>*.*<待分組>*.*<renderer.js
-The currently checked out branch. Pick this if you need to build on work done on this branch.>*.*<當前檢出的分支。如果你需要在這個分支的基礎上繼續工作，請選擇它>*.*<待分組>*.*<renderer.js
-The default branch of the upstream repository. Pick this to start on something new that's not dependent on your current branch.>*.*<上游程式碼庫的預設分支。選擇它來開始一些不依賴於當前分支的新工作>*.*<待分組>*.*<renderer.js
-Your in-progress work will be stashed on this branch for you to return to later>*.*<你正在進行的工作將被暫存到這個分支上，以便稍後返回>*.*<待分組>*.*<renderer.js
-Your in-progress work will follow you to the new branch>*.*<你正在進行的工作將隨著你轉到新分支>*.*<待分組>*.*<renderer.js
-Current repository>*.*<當前儲存庫>*.*<待分組>*.*<renderer.js
-Fast-forwarding branches>*.*<快進式合併分支>*.*<待分組>*.*<renderer.js
-"Sign in";>*.*<登入>*.*<待分組>*.*<renderer.js
-Sign out>*.*<退出>*.*<待分組>*.*<renderer.js
-Sign in to your GitHub.com account to access your repositories.>*.*<登入你的 GitHub.com 賬戶以訪問你的程式碼庫>*.*<待分組>*.*<renderer.js
-If you have a GitHub Enterprise or AE account at work, sign in to it to get access to your repositories.>*.*<如果你在工作中擁有 GitHub Enterprise 或 AE 賬戶，請登入該賬戶以訪問你的程式碼庫>*.*<待分組>*.*<renderer.js
-Your Name>*.*<您的姓名>*.*<待分組>*.*<renderer.js
-your-email@example.com>*.*<您的郵箱>*.*<待分組>*.*<renderer.js
-Disable commit spellcheck>*.*<禁用提交時的拼寫檢查>*.*<待分組>*.*<renderer.js
-Enable commit spellcheck>*.*<啟用提交時的拼寫檢查>*.*<待分組>*.*<renderer.js
-Add co-authors>*.*<新增合作者>*.*<待分組>*.*<renderer.js
-Remove co-authors>*.*<移除合作者>*.*<待分組>*.*<renderer.js
-This submodule change cannot be added to a commit in this repository because it contains changes that have not been committed." : u ? "Only changes that have been committed within the submodule will be added to this repository. You need to commit any other modified or untracked changes in the submodule before including them in this repository.>*.*<無法將此子模組更改新增到此倉庫的提交中，因為它包含尚未提交的更改。只有在子模組中已經提交的更改才會被新增到此倉庫中。在將其包含在此倉庫中之前，您需要提交子模組中的任何其他已修改或未跟蹤更改。>*.*<待分組>*.*<renderer.js
-modified and untracked>*.*<修改過的和未跟蹤的>*.*<待分組>*.*<renderer.js
-untracked>*.*<未跟蹤的>*.*<待分組>*.*<renderer.js
-This submodule has>*.*<這個子模組有>*.*<待分組>*.*<renderer.js
-changes. Those changes must be committed inside of the submodule before they can be part of the parent repository.>*.*<更改。這些更改必須在子模組內提交後才能成為父倉庫的一部分。>*.*<待分組>*.*<renderer.js
-“Select All”>*.*<全選>*.*<待分組>*.*<renderer.js
+&File>*.*<文件>*.*<菜单-文件>*.*<main.js
+New &repository…>*.*<新建存储库>*.*<菜单-文件>*.*<main.js
+Add &local repository…>*.*<添加存储库>*.*<菜单-文件>*.*<main.js
+Clo&ne repository…>*.*<克隆存储库>*.*<菜单-文件>*.*<main.js
+&Options…>*.*<选项>*.*<菜单-文件>*.*<main.js
+E&xit>*.*<退出>*.*<菜单-文件>*.*<main.js
+&Edit>*.*<编辑>*.*<菜单-编辑>*.*<main.js
+&Undo>*.*<撤消>*.*<菜单-编辑>*.*<main.js
+&Redo>*.*<恢复>*.*<菜单-编辑>*.*<main.js
+Cu&t>*.*<剪切>*.*<菜单-编辑>*.*<main.js
+&Copy>*.*<复制>*.*<菜单-编辑>*.*<main.js
+&Paste>*.*<粘贴>*.*<菜单-编辑>*.*<main.js
+Select &all>*.*<全选>*.*<菜单-编辑>*.*<main.js
+&Find>*.*<查找>*.*<菜单-编辑>*.*<main.js
+&View">*.*<视图>*.*<菜单-视图>*.*<main.js
+&Changes>*.*<更改>*.*<菜单-视图>*.*<main.js
+&History>*.*<历史>*.*<菜单-视图>*.*<main.js
+Repository &list>*.*<存储库列表>*.*<菜单-视图>*.*<main.js
+&Branches list>*.*<分支列表>*.*<菜单-视图>*.*<main.js
+Go to &Summary>*.*<填写摘要>*.*<菜单-视图>*.*<main.js
+H&ide stashed changes>*.*<隐藏暂存更改>*.*<菜单-视图>*.*<main.js
+Sho&w stashed changes>*.*<显示暂存更改>*.*<菜单-视图>*.*<main.js
+Toggle &full screen>*.*<全屏>*.*<菜单-视图>*.*<main.js
+Reset zoom>*.*<重置缩放>*.*<菜单-视图>*.*<main.js
+Zoom in>*.*<放大>*.*<菜单-视图>*.*<main.js
+Zoom out>*.*<缩小>*.*<菜单-视图>*.*<main.js
+&Reload>*.*<重新加载>*.*<菜单-视图>*.*<main.js
+&Toggle developer tools>*.*<开发者工具>*.*<菜单-视图>*.*<main.js
+&Repository>*.*<存储库>*.*<菜单-仓库>*.*<main.js
+Force P&ush…>*.*<强制推送…>*.*<菜单-仓库>*.*<main.js
+Force P&ush>*.*<强制推送>*.*<菜单-仓库>*.*<main.js
+P&ush>*.*<推送>*.*<菜单-仓库>*.*<main.js
+Pu&ll>*.*<拉取>*.*<菜单-仓库>*.*<main.js
+&Remove…>*.*<删除>*.*<菜单-仓库>*.*<main.js
+&View on GitHub>*.*<在GitHub上查看>*.*<菜单-仓库>*.*<main.js
+Command Prompt>*.*<}中打开>*.*<菜单-仓库>*.*<main.js
+Show in E&xplorer>*.*<在资源管理器中显示>*.*<菜单-仓库>*.*<main.js
+external editor>*.*<}中打开>*.*<菜单-仓库>*.*<main.js
+Create &issue on GitHub>*.*<在GitHub上创建问题(issue)>*.*<菜单-仓库>*.*<main.js
+Repository &settings…>*.*<存储库设置>*.*<菜单-仓库>*.*<main.js
+&Branch>*.*<分支>*.*<菜单-分支>*.*<main.js
+New &branch…>*.*<新建>*.*<菜单-分支>*.*<main.js
+&Rename…>*.*<重命名>*.*<菜单-分支>*.*<main.js
+&Delete…>*.*<删除>*.*<菜单-分支>*.*<main.js
+Discard all changes…>*.*<放弃所有更改>*.*<菜单-分支>*.*<main.js
+&Stash all changes…>*.*<暂存所有更改(stash)>*.*<菜单-分支>*.*<main.js
+&Stash all changes>*.*<暂存所有更改(stash)>*.*<菜单-分支>*.*<main.js
+&Update from ${a}>*.*<从${a}更新>*.*<菜单-分支>*.*<main.js
+&Compare to branch>*.*<与其他分支比较>*.*<菜单-分支>*.*<main.js
+&Merge into current branch…>*.*<合并到当前分支>*.*<菜单-分支>*.*<main.js
+Squas&h and merge into current branch…>*.*<压缩合并到当前分支>*.*<菜单-分支>*.*<main.js
+R&ebase current branch…>*.*<变基当前分支(Rebase)>*.*<菜单-分支>*.*<main.js
+Compare on &GitHub>*.*<在GitHub上比较>*.*<菜单-分支>*.*<main.js
+View branch on GitHub>*.*<在GitHub上查看>*.*<菜单-分支>*.*<main.js
+View &pull request on GitHub>*.*<在 GitHub 上查看Pull(拉取)请求>*.*<菜单-分支>*.*<main.js
+Create &pull request>*.*<创建拉取(Pull)请求>*.*<菜单-分支>*.*<main.js
+&Help>*.*<帮助>*.*<菜单-帮助>*.*<main.js
+Report issue…>*.*<问题反馈>*.*<菜单-帮助>*.*<main.js
+&Contact GitHub support…>*.*<联系GitHub支持>*.*<菜单-帮助>*.*<main.js
+Show User Guides>*.*<用户指南>*.*<菜单-帮助>*.*<main.js
+Show keyboard shortcuts>*.*<键盘快捷键>*.*<菜单-帮助>*.*<main.js
+S&how logs in Explorer>*.*<日志>*.*<菜单-帮助>*.*<main.js
+Failed opening logs directory>*.*<无法打开日志目录>*.*<菜单-帮助>*.*<main.js
+&About GitHub Desktop>*.*<关于>*.*<菜单-帮助>*.*<main.js
+&Fetch>*.*<同步>*.*<菜单-仓库>*.*<main.js
+Let's get started!>*.*<让我们一起摇摆！🥳🥳🥳>*.*<开始页>*.*<renderer.js
+Add a repository to GitHub Desktop to start collaborating>*.*<用GitHub Desktop协作开发>*.*<开始页>*.*<renderer.js
+Clone a repository from the Internet…>*.*<克隆存储库...>*.*<开始页>*.*<renderer.js
+Create a New Repository on your hard drive…>*.*<创建存储库...>*.*<开始页>*.*<renderer.js
+Add an Existing Repository from your hard drive…>*.*<打开存储库...>*.*<开始页>*.*<renderer.js
+ProTip!">*.*<提示：>*.*<开始页>*.*<renderer.js
+ You can drag & drop an existing repository folder here to add it to Desktop>*.*<您可以将本地的存储库文件夹拖放到此处进行添加>*.*<开始页>*.*<renderer.js
+Clone a repository>*.*<克隆仓库>*.*<待分组>*.*<renderer.js
+"Sign in";>*.*<登录>*.*<待分组>*.*<renderer.js
+Sign in to your GitHub.com account to access your repositories.>*.*<登录您的GitHub.com帐户访问您的存储库。>*.*<待分组>*.*<renderer.js
+Your new branch will be based on the commit '>*.*<您的新分支将基于提交 '>*.*<待分组>*.*<renderer.js
+from your repository.>*.*<从您的存储库。>*.*<待分组>*.*<renderer.js
+You do not currently have any branch checked out (your HEAD reference is detached). As such your new branch will be based on your currently checked out commit>*.*<您当前没有签出任何分支（您的头引用已分离). 因此，您的新分支将基于您当前签出的提交>*.*<待分组>*.*<renderer.js
+Your current branch is unborn (does not contain any commits). Creating a new branch will rename the current branch.>*.*<当前分支未绑定（不包含任何提交）。创建新分支将重命名当前分支。>*.*<待分组>*.*<renderer.js
+A branch named>*.*<分支名为>*.*<待分组>*.*<renderer.js
+already exists`>*.*<已存在`>*.*<待分组>*.*<renderer.js
+already exists on the remote.>*.*<已存在于远程>*.*<待分组>*.*<renderer.js
+URL or username/repository>*.*<URL 或用户名/存储库名>*.*<待分组>*.*<renderer.js
+Repository URL or GitHub username and repository>*.*<存储库URL或GitHub用户名和存储库>*.*<待分组>*.*<renderer.js
+Local path>*.*<本地路径>*.*<待分组>*.*<renderer.js
+repository path>*.*<存储库路径>*.*<待分组>*.*<renderer.js
+"Choose…">*.*<选择…>*.*<待分组>*.*<renderer.js
+Filter your repositories>*.*<筛选存储库>*.*<待分组>*.*<renderer.js
+Your repositories>*.*<您的存储库>*.*<待分组>*.*<renderer.js
+Refresh the list of repositories>*.*<刷新存储库列表>*.*<待分组>*.*<renderer.js
+Looks like there are no repositories for>*.*<没有仓库>*.*<待分组>*.*<renderer.js
+Refresh this list>*.*<刷新此列表>*.*<待分组>*.*<renderer.js
+Loading repositories from ${n}…>*.*<从 ${n} 加载存储库…>*.*<待分组>*.*<renderer.js
+if you've created a repository recently.>*.*<如果您最近创建了存储库。>*.*<待分组>*.*<renderer.js
+Create a new repository>*.*<新建存储库>*.*<待分组>*.*<renderer.js
+Initialize this repository with a README>*.*<添加README文件>*.*<待分组>*.*<renderer.js
+Add local repository>*.*<添加本地存储库>*.*<待分组>*.*<renderer.js
+Add repository>*.*<添加存储库>*.*<待分组>*.*<renderer.js
+||"Cancel">*.*<取消>*.*<待分组>*.*<renderer.js
+Current repository>*.*<当前存储库>*.*<待分组>*.*<renderer.js
